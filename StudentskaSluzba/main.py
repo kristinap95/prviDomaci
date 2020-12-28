@@ -45,7 +45,7 @@ try:
     with open('dugovanja.txt', 'r') as file:
         info = file.read().rstrip('\n')
 except FileExistsError as file_error:
-    info = []
+    info = ""
 finally:
     with open('dugovanja.txt', 'a+') as file_name:
         file_name.writelines("")
