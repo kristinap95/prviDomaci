@@ -25,7 +25,7 @@ class Student:
 
     
 
-student1 = Student('Kristina', 'Papic', 'specijalisticke ', 'C', '04/20')
+student1 = Student('Janko', 'Jankovic', 'specijalisticke ', 'C', '25/20')
 student1.stampa()
 
 student2 = Student('Marko','Markovic', 'osnovne', 'D', '23/15')
